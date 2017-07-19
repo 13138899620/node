@@ -1,0 +1,16 @@
+{
+  "name": "node",
+  "version": "1.0.1",
+  "description": "node framework",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "v_byyang",
+  "license": "ISC",
+  "dependencies": {
+    "excel-export": "^0.5.1",
+    "sequelize": "^4.3.1",
+    "tedious": "^2.0.0"
+  }
+}

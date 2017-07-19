@@ -1,0 +1,43 @@
+{
+    "appenders": [
+        {"type":"console"},
+        {
+            "type": "dateFile",
+            "filename": "storage/logs/http/http",
+            "pattern": "-yyyy-MM-dd.log",
+            "alwaysIncludePattern": true,
+            "category": "http"
+        },
+        {
+            "type": "dateFile",
+            "filename": "storage/logs/error/error",
+            "pattern": "-yyyy-MM-dd.log",
+            "alwaysIncludePattern": true,
+            "category": "error"
+        },
+        {
+            "type": "dateFile",
+            "filename": "storage/logs/cluster/cluster",
+            "pattern": "-yyyy-MM-dd.log",
+            "alwaysIncludePattern": true,
+            "category": "cluster",
+            "level": "info"
+        },
+        {
+            "type": "dateFile",
+            "filename": "storage/logs/illegal/illegal",
+            "pattern": "-yyyy-MM-dd.log",
+            "alwaysIncludePattern": true,
+            "category": "illegal",
+            "level": "info"
+        },
+        {
+            "type": "dateFile",
+            "filename": "storage/logs/photo/photo",
+            "pattern": "-yyyy-MM-dd.log",
+            "alwaysIncludePattern": true,
+            "category": "photo",
+            "level": "info"
+        }
+    ]
+}

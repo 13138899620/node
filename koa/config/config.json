@@ -1,0 +1,19 @@
+{
+    "SignatureKey": "a5aa7563838d4f75a9d2a1291f6df114",
+    "SecretKey": "f72e51440bb645bf9ad0bdc1c7345124",
+    "token": "test",
+    "wechat":{
+        "token":"weixin",
+        "appid":"wx5715d3d0b2efe93a",
+        "encodingAESKey": "33rDSuwHtjwqZL301gX8sPcRLB9ChIgONhp1voQHtNn",
+        "checkSignature": true 
+    },
+     "redis": {
+        "host": "127.0.0.1",
+        "port": 6379,
+        "password": "yangyi",
+        "return_buffers": true,
+        "detect_buffers": true,
+        "db": 1
+    }
+}

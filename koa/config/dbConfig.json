@@ -1,0 +1,31 @@
+{
+    "development": {
+        "username": "root",
+        "password": "root",
+        "database": "SSC_Cloud",
+        "host": "127.0.0.1",
+        "dialect": "mysql",
+        "logging": false,
+        "pool": {
+            "max": 5,
+            "min": 0,
+            "idle": 10000
+        }
+    },
+    "test": {
+        "username": "root",
+        "password": null,
+        "database": "test",
+        "host": "127.0.0.1",
+        "dialect": "mysql",
+        "dialect": "mysql"
+    },
+    "production": {
+        "username": "root",
+        "password": "root",
+        "database": "task",
+        "host": "127.0.0.1",
+        "logging": false,
+        "dialect": "mysql"
+    }
+}

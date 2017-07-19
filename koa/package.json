@@ -1,0 +1,37 @@
+{
+  "name": "SSC.Cloud.Host",
+  "version": "1.0.0",
+  "description": "SSC Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/nyc ./node_modules/.bin/ava --verbose",
+    "start": "node --harmony index.js"
+  },
+  "ava": {
+    "files": [
+      "test/*.js"
+    ]
+  },
+  "author": "v_byyang",
+  "license": "ISC",
+  "dependencies": {
+    "inflection": "^1.10.0",
+    "koa": "^2.2.0",
+    "koa-bodyparser": "^3.2.0",
+    "koa-convert": "^1.2.0",
+    "koa-generic-session": "^1.11.5",
+    "koa-json": "^1.1.3",
+    "koa-log4": "^2.0.1",
+    "koa-multer": "^1.0.0",
+    "koa-onerror": "^2.0.0",
+    "koa-redis": "^2.1.3",
+    "koa-router": "^7.0.1",
+    "mysql": "^2.12.0",
+    "sequelize": "^3.24.3"
+  },
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "nyc": "^10.1.2",
+    "sequelize-auto": "^0.4.18"
+  }
+}
